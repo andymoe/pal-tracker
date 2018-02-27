@@ -18,8 +18,8 @@ dependencies {
 
     testCompile project(":components:test-support")
 
-    compile "org.springframework.boot:spring-boot-starter-actuator:1.5.10.RELEASE"
-    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry:1.6.0.RELEASE"
-    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker:1.0.1.RELEASE"
+    compile "org.springframework.boot:spring-boot-starter-actuator"
+    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
+    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker"
 
 }
